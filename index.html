@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>NEW ZONE - Home</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0; padding: 0;
+      background: #fff;
+      color: #222;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+    header {
+      padding: 20px;
+      border-bottom: 1px solid #ddd;
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+    header img {
+      height: 50px;
+      width: 50px;
+      object-fit: contain;
+    }
+    nav a {
+      margin-left: auto;
+      text-decoration: none;
+      color: #222;
+      font-weight: 600;
+      margin-right: 20px;
+      transition: color 0.3s ease;
+    }
+    nav a:hover {
+      color: #007bff;
+    }
+    main {
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 40px 20px;
+      text-align: center;
+      gap: 20px;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 1.2rem;
+      max-width: 600px;
+      color: #555;
+    }
+    .btn-group {
+      display: flex;
+      gap: 15px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .btn {
+      font-weight: 600;
+      padding: 14px 28px;
+      border-radius: 6px;
+      font-size: 1.1rem;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      transition: background 0.3s ease;
+      border: none;
+    }
+    .btn-shop {
+      background: #007bff;
+      color: white;
+    }
+    .btn-shop:hover {
+      background: #0056b3;
+    }
+    .btn-whatsapp {
+      background: #25D366;
+      color: white;
+    }
+    .btn-whatsapp:hover {
+      background: #1DA851;
+    }
+    .btn-whatsapp svg {
+      width: 20px;
+      height: 20px;
+      fill: white;
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      font-size: 0.9rem;
+      border-top: 1px solid #ddd;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo1.jpg" alt="NEW ZONE Logo" />
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="shop.html">Shop</a>
+      <a href="about.html">About</a>
+    </nav>
+  </header>
+  <main>
+    <h1>Welcome to NEW ZONE</h1>
+    <p>Your one-stop destination for premium products. Explore our latest collections and shop your favorites with ease.</p>
+    <div class="btn-group">
+      <a href="shop.html" class="btn btn-shop">Shop Now</a>
+      <a href="https://wa.me/9188487 76459" target="_blank" class="btn btn-whatsapp" aria-label="Chat on WhatsApp">
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M20.52 3.48a11.89 11.89 0 0 0-16.8 0c-4.68 4.68-4.68 12.28 0 16.96L2 22l1.56-3.72a11.85 11.85 0 0 0 16.96 0 11.89 11.89 0 0 0 0-16.8Zm-8.07 15.15a9.55 9.55 0 0 1-5.03-1.5l-.36-.22-3 1 1-3.02-.24-.37a9.54 9.54 0 0 1-1.5-5.05 9.6 9.6 0 0 1 9.6-9.6 9.54 9.54 0 0 1 6.8 2.82 9.57 9.57 0 0 1 2.78 6.78 9.58 9.58 0 0 1-9.58 9.62Zm5.3-7.34c-.29-.15-1.7-.84-1.97-.94-.26-.1-.46-.15-.66.15-.2.29-.78.94-.95 1.13-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.49-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.29.3-.49.1-.2.05-.37-.02-.52-.07-.15-.66-1.59-.9-2.18-.23-.57-.47-.49-.66-.5-.17 0-.37-.01-.56-.01-.2 0-.52.07-.8.37-.27.3-1.03 1-1.03 2.44 0 1.44 1.05 2.83 1.2 3.02.15.2 2.07 3.15 5.02 4.41.7.3 1.25.48 1.68.62.7.22 1.34.19 1.85.12.57-.07 1.7-.69 1.94-1.35.24-.66.24-1.23.17-1.35-.07-.12-.26-.2-.55-.35Z"/>
+        </svg>
+        Chat on WhatsApp
+      </a>
+    </div>
+  </main>
+  <footer>
+    &copy; 2025 NEW ZONE. All rights reserved.
+  </footer>
+</body>
+</html>

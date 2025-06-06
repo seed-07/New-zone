@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>NEW ZONE - Shop</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0; padding: 0;
+      background: #fff;
+      color: #222;
+    }
+    header {
+      padding: 20px;
+      border-bottom: 1px solid #ddd;
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+    header img {
+      height: 50px;
+      width: 50px;
+      object-fit: contain;
+    }
+    nav a {
+      margin-left: auto;
+      text-decoration: none;
+      color: #222;
+      font-weight: 600;
+      margin-right: 20px;
+    }
+    main {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+    }
+    .product-card {
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      overflow: hidden;
+      text-align: center;
+      text-decoration: none;
+      color: inherit;
+      transition: box-shadow 0.3s ease;
+    }
+    .product-card:hover {
+      box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+    }
+    .product-card .image-wrapper {
+      width: 100%;
+      padding-top: 100%; /* 1:1 aspect ratio */
+      position: relative;
+      overflow: hidden;
+    }
+    .product-card img {
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .product-card .info {
+      padding: 15px;
+    }
+    .product-card h2 {
+      margin: 10px 0 5px;
+      font-size: 1.2rem;
+    }
+    .product-card p {
+      color: #555;
+      font-size: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo1.jpg" alt="NEW ZONE Logo" />
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="shop.html">Shop</a>
+      <a href="about.html">About</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Our Products</h1>
+    <div class="product-grid">
+      <a href="product1.html" class="product-card">
+        <div class="image-wrapper">
+          <img src="watch2.jpg" alt="Product 1" />
+        </div>
+        <div class="info">
+          <h2>Nike Triax Armoured</h2>
+          <p>1549 ₹</p>
+        </div>
+      </a>
+
+      <a href="product2.html" class="product-card">
+        <div class="image-wrapper">
+          <img src="shoe1.jpg" alt="Product 2" />
+        </div>
+        <div class="info">
+          <h2>Nike Blazer</h2>
+          <p>1699 ₹</p>
+        </div>
+      </a>
+      <a href="product3.html" class="product-card">
+        <div class="image-wrapper">
+          <img src="y2kwatch1.jpg" alt="Product 3" />
+        </div>
+        <div class="info">
+          <h2>OAKLEY Y2K </h2>
+          <p>1499 ₹</p>
+        </div>
+      </a>
+      <a href="product4.html" class="product-card">
+        <div class="image-wrapper">
+          <img src="cwatch1.jpg" alt="Product 4" />
+        </div>
+        <div class="info">
+          <h2>Classic Casio Digital watch  </h2>
+          <p>999 ₹</p>
+        </div>
+      </a>
+       <a href="product5.html" class="product-card">
+        <div class="image-wrapper">
+          <img src="airpod.jpg" alt="Product 5" />
+        </div>
+        <div class="info">
+          <h2>Apple Airpods  </h2>
+          <p>699 ₹</p>
+        </div>
+      </a>
+
+
+    </div>
+  </main>
+</body>
+</html>
